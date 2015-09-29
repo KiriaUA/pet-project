@@ -1,1 +1,1 @@
-# pet-project
+This is a simple application to working on Hibernate

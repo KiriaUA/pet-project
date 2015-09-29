@@ -16,5 +16,6 @@ public class EntryPoint {
 
         session.save(user);
         session.getTransaction().commit();
+        System.exit(0);
     }
 }
