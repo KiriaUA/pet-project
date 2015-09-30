@@ -1,12 +1,16 @@
 package com.starikov;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Entity(name = "USER_DETAILS")
+@Entity
+@Table(name = "USERS")
 public class User {
 
     @Id
+    @GeneratedValue
     private int userId;
     private String userName;
 
